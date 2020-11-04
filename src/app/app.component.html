@@ -1,4 +1,15 @@
-<h1>Hello from app</h1>
+<mat-toolbar color="primary">
+    
+    <span>Todo App</span>
+    <span class="example-spacer"></span>
+    <section>
+        <div class="example-button-row">
+        <button mat-raised-button color="warn"routerLink="/todo-list" routerLinkActive="active">Todo List</button>
+        <button mat-raised-button color="warn"routerLink="/todo-details" routerLinkActive="active">Todo Details</button>
+    </div>
+    </section>
+    
+  </mat-toolbar>
+
 <app-employee-create></app-employee-create>
-<app-employee-details></app-employee-details>
-<app-employee-list></app-employee-list>
+<router-outlet></router-outlet>

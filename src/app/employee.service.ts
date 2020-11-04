@@ -7,9 +7,9 @@ import { Injectable } from '@angular/core'
 export class EmployeeService {
 
   employeeDetails = [
-    { id: 1, name: 'AA', department: 'CSE'},
-    { id: 2, name: 'B', department: 'ME'},
-    { id: 3, name: 'C', department: 'ECE'},
+    { id: 'A', name: '20/11/20', department: 'Hello'},
+    { id: 'B', name: '21/11/20', department: 'Hi'},
+    { id: 'C', name: '22/11/20', department: 'Hey'},
   ]
 
   createEmployee(id, name, dept) {
